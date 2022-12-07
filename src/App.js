@@ -1,10 +1,10 @@
 import './App.css'
-import Game from './components/TicTacToe/Game'
+import DoubleCounter from './components/Counter/DoubleCounter'
 
 function App() {
   return (
     <div>
-      <Game></Game>
+      <DoubleCounter></DoubleCounter>
     </div>
   )
 }

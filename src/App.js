@@ -1,15 +1,11 @@
 import './App.css'
-import YoutubeList from './components/Youtube/YoutubeList'
+import Game from './components/TicTacToe/Game'
 
 function App() {
-  const name = 'Evondev'
   return (
-    <>
-      <YoutubeList>
-        {/* children: html, component, text, variable */}
-        {name}
-      </YoutubeList>
-    </>
+    <div>
+      <Game></Game>
+    </div>
   )
 }
 
